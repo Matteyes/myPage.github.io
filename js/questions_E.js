@@ -13,7 +13,7 @@ var q1 = new Vue({
 			{
 			  num:'2',
 			  name: 'question2',
-			  ques: 'Any one of these: congenital heart disease, congenital abnormal airway development, sepsis, pyemia, intracranial infection, hypoxic ischemic encephalopathy.',
+			  ques: 'Any one of these concomitant diseases: congenital heart disease, congenital abnormal airway development, sepsis, pyemia, intracranial infection, hypoxic ischemic encephalopathy?',
 			  ans1: 'Yes',
 			  ans2: 'No',
 			  ans3: 'Unknown'
@@ -45,7 +45,7 @@ var q1 = new Vue({
 			{
 			  num:'6',
 			  name: 'question6',
-			  ques: 'Consolidation or impaired area present in more than 1 pulmonary lobe on the radiographic detection',
+			  ques: 'Consolidation or impaired area present in more than 1 pulmonary lobe on the radiographic detection?',
 			  ans1: 'Yes',
 			  ans2: 'No',
 			  ans3: 'Unknown'
