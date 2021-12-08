@@ -130,17 +130,7 @@ $(document).ready(function(){
 		unkown = 0;
 		ans = 0;
 	})
-	// var nodemailer = require("nodemailer");
-	// // 开启一个 SMTP 连接池
-	// var smtpTransport = nodemailer.createTransport("SMTP",{
-	//   host: "smtp.qq.com", // 主机
-	//   secureConnection: true, // 使用 SSL
-	//   port: 465, // SMTP 端口
-	//   auth: {
-	//     user: '1309582431@qq.com', //邮箱账号
-	//     pass: 'rmtrokxlwgjxghhj' //邮箱的授权码
-	//   }
-	// });
+
 	
 
 	
