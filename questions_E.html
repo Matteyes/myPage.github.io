@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Modified PIRO</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="format-detection" content="telephone=yes" />
+		<meta name="msapplication-tap-highlight" content="no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+		<link rel="stylesheet" type="text/css" href="./css/questions.css" />
+		<script src="./js/jquery-3.6.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./js/v2.6.10/vue.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="questions" class="question_warp">
+			<div class="question_title">Modified PIRO</div>
+		    <div class="section_wrap" v-for="item in items">
+		        <div class="section_title">{{item.num}}、{{item.ques}}</div>
+		        <label class="choice_wrap"> <input type="radio" class="section_choice" value="A" :name="item.name" />A、{{item.ans1}}</label>
+				<label class="choice_wrap"> <input type="radio" class="section_choice" value="B" :name="item.name" />B、{{item.ans2}}</label>
+				<label class="choice_wrap"> <input type="radio" class="section_choice" value="C" :name="item.name" checked />C、{{item.ans3}}</label>
+		    </div>
+		</div>
+		<div class="button_wrap">
+			<button class="submit_button">Submit</button>
+			<div class="noteText">If you have any comments or suggestions during use, please give us feedback, thank you!<br> Email address:nk_xu@hotmail.com</div>
+			<div class="feedback_wrap">
+				<button class="feedback_button">Copy email address</button>
+			</div>
+		</div>
+
+		<script src="./js/questions_E.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
