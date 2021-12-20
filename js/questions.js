@@ -136,7 +136,7 @@ $(document).ready(function(){
 	
 
 	$(".feedback_button").click(function(){
-		var address = "nk_xu@hotmail.com";
+		var address = "dengysure186@aliyun.com";
 		copyToClipboard(address);
 		// var feedbackText = prompt("如果您在使用过程种有任何意见或者建议，欢迎给我们反馈，谢谢！","请输入您的建议以及联系方式");
 		// // 设置邮件内容
